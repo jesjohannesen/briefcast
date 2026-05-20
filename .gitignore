@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+token.json
+client_secret*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.uv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (if any tooling lands here later)
+node_modules/
+
+# Generated outputs
+output/
+*.mp3
+*.wav
+raw_items*.json
+script*.txt
+feed.xml
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
